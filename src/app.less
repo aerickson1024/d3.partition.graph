@@ -1,0 +1,30 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-size: 16px; }
+
+#app {
+  position: relative;
+  rect {
+    stroke: white;
+  }
+  .text-group {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    .text-box {
+      position: absolute;
+      padding-left: 5px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      pointer-events: none;
+    }
+    a {
+      pointer-events: auto;
+    }
+  }
+  .parent {
+    fill: rgb(77, 156, 221);
+  }
+  .child {
+    fill: rgb(177, 177, 177);
+  }
+}
